@@ -180,7 +180,7 @@ ul.top_agile_w3l_info_icons i {
   color: #111 !important;
   text-transform: uppercase;
   letter-spacing: 1px;
-  transform: scale(1.25);
+  transform: scale(1.5);
   text-align: center;
   padding: 10px 10px !important;
 }
@@ -523,7 +523,6 @@ h5.w3l-subtitle {
 }
 
 .img-responsive {
-  max-height: 335px;
   width: 100%;
 }
 /* Rectangle In */
@@ -2649,6 +2648,7 @@ p.wickedpicker__title {
   float: left;
   width: 32%;
   margin-right: 1%;
+  margin-top: 1%;
 }
 .con-w3l-info h4 {
   font-size: 1.4em;
@@ -2701,7 +2701,7 @@ p.con {
   color: #333;
 }
 .contact-top-agileits {
-  margin-bottom: 3em;
+  margin: 3em;
 }
 .map-grid-left {
   background: #fff;
