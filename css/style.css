@@ -987,7 +987,7 @@ ul.social-icons .icon-border::after {
   -ms-transform: scaleX(1);
 }
 .w3_agile_services_bottom_right_grid {
-  background: url(../images/slid1.jpg) no-repeat 0px 0px;
+  background: url(../images/banner.jpg) no-repeat 0px 0px;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -995,7 +995,7 @@ ul.social-icons .icon-border::after {
   -o-background-size: cover;
 }
 .w3_agile_services_bottom_right_grid1 {
-  background: url(../images/slid2.jpg) no-repeat 0px 0px;
+  background: url(../images/banner3.jpg) no-repeat 0px 0px;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1003,7 +1003,7 @@ ul.social-icons .icon-border::after {
   -o-background-size: cover;
 }
 .w3_agile_services_bottom_right_grid2 {
-  background: url(../images/slid3.jpg) no-repeat 0px 0px;
+  background: url(../images/banner2.jpg) no-repeat 0px 0px;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1807,7 +1807,6 @@ ul.bs-glyphicons-list li:hover span {
 
 .card {
   background-color: #207fdc;
-  height: 20rem;
 }
 
 .cardinfo {
