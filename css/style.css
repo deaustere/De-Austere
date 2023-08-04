@@ -2659,7 +2659,8 @@ p.wickedpicker__title {
   font-size: 0.9em;
   line-height: 1.9em;
   color: #fff;
-  height: 100px;
+  height: 7rem;
+  margin-top: 2rem;
 }
 .con-w3l-info a {
   font-size: 0.97em;
