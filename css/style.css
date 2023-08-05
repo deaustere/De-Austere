@@ -400,6 +400,10 @@ ul.top_agile_w3l_info_icons i {
   -moz-background-size: cover;
   min-height: 700px;
 }
+
+.segment-height {
+  min-height: 500px;
+}
 .w3layouts-banner-top1 {
   background: url(../images/pharmacist.jpg) no-repeat 0px 0px;
   background-size: cover;
@@ -1804,7 +1808,9 @@ ul.bs-glyphicons-list li:hover span {
   border: 0;
   width: 100%;
 }
-
+.jislider__controller {
+  left: 0 !important;
+}
 .card {
   background-color: #207fdc;
 }
@@ -3187,7 +3193,8 @@ ul.agileits_social_list.two li {
   .w3layouts-banner-top,
   .w3layouts-banner-top1,
   .w3layouts-banner-top2,
-  .w3layouts-banner-top3 {
+  .w3layouts-banner-top3,
+  .segment-height {
     min-height: 660px;
   }
   h3.w3_heade_tittle_agile,
@@ -3239,7 +3246,8 @@ ul.agileits_social_list.two li {
   .w3layouts-banner-top,
   .w3layouts-banner-top1,
   .w3layouts-banner-top2,
-  .w3layouts-banner-top3 {
+  .w3layouts-banner-top3,
+  .segment-height {
     min-height: 650px;
   }
   .w3l_chill {
@@ -3277,7 +3285,8 @@ ul.agileits_social_list.two li {
   .w3layouts-banner-top,
   .w3layouts-banner-top1,
   .w3layouts-banner-top2,
-  .w3layouts-banner-top3 {
+  .w3layouts-banner-top3,
+  .segment-height {
     min-height: 600px;
   }
 
@@ -3339,7 +3348,8 @@ ul.agileits_social_list.two li {
   .w3layouts-banner-top,
   .w3layouts-banner-top1,
   .w3layouts-banner-top2,
-  .w3layouts-banner-top3 {
+  .w3layouts-banner-top3,
+  .segment-height {
     min-height: 530px;
   }
   .agileits-banner-info h3 {
@@ -3458,7 +3468,8 @@ ul.agileits_social_list.two li {
   .w3layouts-banner-top,
   .w3layouts-banner-top1,
   .w3layouts-banner-top2,
-  .w3layouts-banner-top3 {
+  .w3layouts-banner-top3,
+  .segment-height {
     min-height: 500px;
   }
   .w3l_chill {
@@ -3643,7 +3654,8 @@ contact-form-aits input[type="text"],
   .w3layouts-banner-top,
   .w3layouts-banner-top1,
   .w3layouts-banner-top2,
-  .w3layouts-banner-top3 {
+  .w3layouts-banner-top3,
+  .segment-height {
     min-height: 450px;
   }
   .w3_agileits_services_bottom_r_grid {
@@ -3884,7 +3896,8 @@ contact-form-aits input[type="text"],
   .w3layouts-banner-top,
   .w3layouts-banner-top1,
   .w3layouts-banner-top2,
-  .w3layouts-banner-top3 {
+  .w3layouts-banner-top3,
+  .segment-height {
     min-height: 400px;
   }
   .w3ls-blog-leftl {
@@ -3949,7 +3962,8 @@ contact-form-aits input[type="text"],
   .w3layouts-banner-top,
   .w3layouts-banner-top1,
   .w3layouts-banner-top2,
-  .w3layouts-banner-top3 {
+  .w3layouts-banner-top3,
+  .segment-height {
     min-height: 350px;
   }
   .agileits-banner-info {
@@ -4079,7 +4093,8 @@ contact-form-aits input[type="text"],
   .w3layouts-banner-top,
   .w3layouts-banner-top1,
   .w3layouts-banner-top2,
-  .w3layouts-banner-top3 {
+  .w3layouts-banner-top3,
+  .segment-height {
     min-height: 300px;
   }
   .map_agile iframe {
@@ -4284,7 +4299,8 @@ contact-form-aits input[type="text"],
   .w3layouts-banner-top,
   .w3layouts-banner-top1,
   .w3layouts-banner-top2,
-  .w3layouts-banner-top3 {
+  .w3layouts-banner-top3,
+  .segment-height {
     min-height: 280px;
   }
   .map-grids h3 {
@@ -4357,7 +4373,8 @@ contact-form-aits input[type="text"],
   .w3layouts-banner-top,
   .w3layouts-banner-top1,
   .w3layouts-banner-top2,
-  .w3layouts-banner-top3 {
+  .w3layouts-banner-top3,
+  .segment-height {
     min-height: 250px;
   }
   .w3_service_bottom_grid_pos {
