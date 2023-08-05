@@ -404,6 +404,13 @@ ul.top_agile_w3l_info_icons i {
 .segment-height {
   min-height: 500px;
 }
+.jislider__button {
+  width: 12px;
+}
+.jislider__img {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .w3layouts-banner-top1 {
   background: url(../images/pharmacist.jpg) no-repeat 0px 0px;
   background-size: cover;
