@@ -60,7 +60,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 
             <li>
               <i class="fa fa-envelope-o" aria-hidden="true"></i
-              ><a href="mailto:maria@example.com">support@deaustere.com</a>
+              ><a href="mailto:maria@example.com">support@De Austere.com</a>
             </li>
           </ul>
         </div>
@@ -302,7 +302,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
                 </li>
                 <li>
                   <i class="fa fa-envelope-o" aria-hidden="true"></i
-                  ><a href="mailto:info@example.com">support@deaustere.com</a>
+                  ><a href="mailto:info@example.com">support@De Austere.com</a>
                 </li>
                 <li>
                   <i class="fa fa-phone" aria-hidden="true"></i>+91 9895346319
@@ -370,6 +370,10 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
     ></a>
     <!-- js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+
     <!-- bootstrap-pop-up -->
     <div
       class="modal video-modal fade"
@@ -397,18 +401,21 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
         </div>
       </div>
     </div>
-
     <script type="text/javascript">
-      jQuery(document).ready(function ($) {
-        $(".scroll").click(function (event) {
-          event.preventDefault();
-          $("html,body").animate(
-            { scrollTop: $(this.hash).offset().top },
-            1000
-          );
-        });
+      $(document).ready(function () {
+        /*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+
+        $().UItoTop({ easingType: "easeOutQuart" });
       });
     </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js"></script>
   </body>
 </html>
