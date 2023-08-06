@@ -420,6 +420,25 @@ ul.top_agile_w3l_info_icons i {
   -moz-background-size: cover;
   min-height: 700px;
 }
+.main-content {
+  opacity: 0;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.research-segment {
+  border: 0 solid #1c1c1c !important;
+  padding: 1px !important;
+  font-size: 1em !important;
+  letter-spacing: 1px !important;
+  color: #555 !important;
+  font-weight: 600 !important;
+  background: #fff !important;
+}
 .w3layouts-banner-top2 {
   background: url(../images/medicines-palm-hand.jpg) no-repeat 0px 0px;
   background-size: cover;
