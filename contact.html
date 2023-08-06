@@ -42,6 +42,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
       href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/jquery-ui.css" />
   </head>
 
   <body>
@@ -370,7 +371,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
     ></a>
     <!-- js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-
+    <script src="js/SmoothScroll.min.js"></script>
     <script type="text/javascript" src="js/move-top.js"></script>
     <script type="text/javascript" src="js/easing.js"></script>
 
@@ -401,6 +402,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
         </div>
       </div>
     </div>
+    <script src="/js/bootstrap.js"></script>
     <script type="text/javascript">
       $(document).ready(function () {
         /*
@@ -415,7 +417,28 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
         $().UItoTop({ easingType: "easeOutQuart" });
       });
     </script>
+    <script type="text/javascript">
+      jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+          event.preventDefault();
+          $("html,body").animate(
+            { scrollTop: $(this.hash).offset().top },
+            1000
+          );
+        });
+      });
+    </script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+          event.preventDefault();
+          $("html,body").animate(
+            { scrollTop: $(this.hash).offset().top },
+            1000
+          );
+        });
+      });
+    </script>
   </body>
 </html>
